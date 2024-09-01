@@ -1,10 +1,11 @@
+import Slider from '@/components/Slider';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 const Page = () => {
   return (
     <View style={styles.container}>
-      <Text>Carousel Page</Text>
+      <Slider />
     </View>
   );
 };

@@ -8,39 +8,42 @@ export type ImageSliderType = {
 
 export const ImageSlider = [
   {
-    title: 'Diamond Large',
-    image: require('@assets/images/img-1.png'),
+    title: 'Landscape Mountain',
+    image: {
+      uri: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fHww',
+    },
     description:
-      'Diamond Large is a new and improved version of the original Diamond. It is a high-quality, high-performance, and high-precision machine that is designed to be used in a wide range of applications. ',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
   },
   {
-    title: 'Rose Gold Bracelet',
-    image: require('@assets/images/img-2.png'),
+    title: 'Island River',
+    image: {
+      uri: 'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D',
+    },
     description:
-      'Rose Gold Bracelet is very popular bracelet in the market. It is made of high-quality materials and is designed to be worn on the wrist. It is a perfect accessory for any outfit and can be worn on any occasion.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
   },
   {
-    title: 'Diamond Earings',
-    image: require('@assets/images/img-3.png'),
+    title: 'Sunset Beach',
+    image: {
+      uri: 'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2h8ZW58MHx8MHx8fDA%3D',
+    },
     description:
-      'Diamond Earings are a popular choice and are available in a variety of styles and designs. They are made of high-quality materials and are designed to be worn on the ears. They are a perfect accessory for any outfit and can be worn on any occasion.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget',
   },
   {
-    title: 'Safire Earings',
-    image: require('@assets/images/img-4.png'),
-    description:
-      'Safire Earings are a popular choice and are available in a variety of styles and designs. They are made of high-quality materials and are designed to be worn on the ears. They are a perfect accessory for any outfit and can be worn on any occasion.',
+    title: 'Blue Sea',
+    image: {
+      uri: 'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYWNofGVufDB8fDB8fHww',
+    },
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed',
   },
   {
-    title: 'Silver Earings',
-    image: require('@assets/images/img-5.png'),
+    title: 'Green Forest',
+    image: {
+      uri: 'https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fHww',
+    },
     description:
-      'Silver Earings are the perfect accessory for any outfit. They are made of high-quality materials and are designed to be worn on the ears. They are a perfect accessory for any outfit and can be worn on any occasion.',
-  },
-  {
-    title: 'Prince Cut Diamond Ring',
-    image: require('@assets/images/img-6.png'),
-    description:
-      'Prince Cut Diamond Ring is the favorite choice of many people. It is made of high-quality materials and is designed to be worn on the finger. It is a perfect accessory for any outfit and can be worn on any occasion ',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
   },
 ];

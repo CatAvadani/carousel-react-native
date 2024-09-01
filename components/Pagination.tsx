@@ -20,6 +20,7 @@ const Pagination = ({ items, paginationIndex, scrollX }: PaginationProps) => {
   return (
     <View style={styles.container}>
       {items.map((_, index) => {
+        // This creates the animation for the pagination dots to grow and shrink
         const pgAnimatedStyle = useAnimatedStyle(() => {
           const dotWidth = interpolate(
             scrollX.value,
@@ -36,7 +37,7 @@ const Pagination = ({ items, paginationIndex, scrollX }: PaginationProps) => {
             key={index}
             style={[
               styles.dot,
-              pgAnimatedStyle,
+              //   pgAnimatedStyle,
               { backgroundColor: paginationIndex === index ? '#222' : '#aaa' },
             ]}
           ></Animated.View>

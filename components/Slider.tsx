@@ -1,13 +1,17 @@
-import { ImageSlider } from '@/data/SliderData';
+import { ImageSliderType } from '@/data/SliderData';
 import React from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import SliderItem from './SliderItem';
 
-const Slider = () => {
+type SliderProps = {
+  itemList: ImageSliderType[];
+};
+
+const Slider = ({ itemList }: SliderProps) => {
   return (
     <View>
       <FlatList
-        data={ImageSlider}
+        data={itemList}
         renderItem={({ item, index }) => (
           <SliderItem item={item} index={index} />
         )}

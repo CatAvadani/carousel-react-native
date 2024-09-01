@@ -8,9 +8,17 @@ export type ImageSliderType = {
 
 export const ImageSlider = [
   {
+    title: 'Sunset Beach',
+    image: {
+      uri: 'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2h8ZW58MHx8MHx8fDA%3D',
+    },
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget',
+  },
+  {
     title: 'Landscape Mountain',
     image: {
-      uri: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fHww',
+      uri: 'https://images.unsplash.com/photo-1500468228039-a1769cf9cb41?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fG1vdW50YWluJTIwbGFrZXxlbnwwfHwwfHx8MA%3D%3D',
     },
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
@@ -23,14 +31,7 @@ export const ImageSlider = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
   },
-  {
-    title: 'Sunset Beach',
-    image: {
-      uri: 'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2h8ZW58MHx8MHx8fDA%3D',
-    },
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget',
-  },
+
   {
     title: 'Blue Sea',
     image: {
